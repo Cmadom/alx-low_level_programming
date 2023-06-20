@@ -21,6 +21,7 @@ int is_digit(char *s)
 			return (0);
 		i++;
 	}
+<<<<<<< HEAD
 	return (1);
 }
 
@@ -39,6 +40,8 @@ int _strlen(char *s)
 	{
 		i++;
 	}
+=======
+>>>>>>> 8e85bf24b2698854cfb1afe4c9ad4ccbe54b7f65
 	return (i);
 }
 
