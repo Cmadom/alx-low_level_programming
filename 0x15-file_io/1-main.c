@@ -5,9 +5,13 @@
 /**
  * main - check the code
  *
+ * @param ac An integer representing the argument count.
+ * @param av An array of strings representing the arguments.
+ * @return An integer result.
  * Return: Always 0.
  */
-int main(int ac, char **av)
+
+int main(int ac, char *av[])
 {
 	int res;
 
