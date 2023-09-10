@@ -49,7 +49,7 @@ void hash_table_delete(hash_table_t *ht);
  * @value: The value corresponding to a key
  * @next: A pointer to the next node of the List
  * @sprev: A pointer to the previous element of the sorted linked list
- * snext: A pointer to the next element of the sorted linked list
+ * @snext: A pointer to the next element of the sorted linked list
  */
 
 typedef struct shash_node_s
