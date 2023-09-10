@@ -106,8 +106,8 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 	else
 	{
 		tmp = ht->shead;
-		while (tmp->snext != NULL && strcmp(tmp->snext->key, key) <
-				tmp = tmp->snext;
+		while (tmp->snext != NULL && strcmp(tmp->snext->key, key) != 0)
+			tmp = tmp->snext;
 		new->sprev = tmp;
 		new->snext = tmp->snext;
 		if (tmp->snext == NULL)
